@@ -1,0 +1,204 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RFLI Overseas Fall Program Monthly Evaluation</title>
+    <script src="https://cdn.tailwindcss.com/"></script>
+    <script defer data-domain="red-matilde-97.tiiny.site" src="https://analytics.tiiny.site/js/plausible.js"></script>
+    <script type="text/javascript" src="https://tiiny.host/ad-script.js"></script>
+</head>
+<body class="bg-gray-100 p-8">
+    <form action="https://formspree.io/f/xkgwlknk" method="POST">
+        <h1 class="text-2xl font-bold mb-6">RFLI OVERSEAS Fall Program Monthly Anonymous Student Evaluation</h1>
+
+        <!-- Program Location -->
+        <div class="mb-4">
+            <label class="block mb-2">Program Location:</label>
+            <select name="location" class="w-full p-2 border rounded" required="">
+                <option value="">Select a location</option>
+                <option value="Azerbaijan">Azerbaijan</option>
+                <option value="India">India</option>
+                <option value="Indonesia">Indonesia</option>
+                <option value="Thailand">Thailand</option>
+                <option value="Vietnam">Vietnam</option>
+            </select>
+        </div>
+
+        <!-- Date -->
+        <div class="mb-4">
+            <label class="block mb-2">Date:</label>
+            <input type="date" name="date" class="w-full p-2 border rounded" required="">
+        </div>
+
+        <!-- Program Evaluation Section -->
+        <h2 class="text-xl font-semibold mt-6 mb-4">A. Program Evaluation</h2>
+
+        <!-- Academic Program -->
+        <h2 class="text-xl font-semibold mt-6 mb-4">
+            2. Academic Program (Please evaluate each of your courses):
+        </h2>
+
+        <!-- Course 1 -->
+        <!-- ... (Course 1 details remain the same) -->
+
+        <!-- Course 2 -->
+        <!-- ... (Course 2 details remain the same) -->
+
+        <!-- Course 3 -->
+        <!-- ... (Course 3 details remain the same) -->
+
+        <!-- Language Partners Section -->
+        <!-- ... (No changes) -->
+
+        <!-- Local Staff Section -->
+        <!-- ... (No changes) -->
+
+        <!-- Resident Director Section -->
+        <!-- ... (No changes) -->
+
+        <!-- Host Family Section -->
+        <!-- ... (No changes) -->
+
+        <!-- Cultural Activities/Excursions Section -->
+        <!-- ... (No changes) -->
+
+        <!-- American Councils Staff in Washington D.C. Section -->
+        <!-- ... (No changes) -->
+
+        <!-- Group Dynamics Section -->
+        <!-- ... (No changes) -->
+
+        <!-- Final Reflection Section -->
+        <!-- ... (No changes) -->
+
+        <!-- Updated Academic Questions for November -->
+        <h2 class="text-xl font-semibold mt-6 mb-4">C. Course Feedback</h2>
+
+        <p class="mb-4">Please rank the following items from 1 (strongly disagree) to 5 (strongly agree):</p>
+
+        <!-- Question 1 -->
+        <div class="mb-4">
+            <label class="block mb-2">1. The course was well organized.</label>
+            <div class="flex justify-between">
+                <label><input type="radio" name="course_well_organized" value="1" required> 1 (Strongly Disagree)</label>
+                <label><input type="radio" name="course_well_organized" value="2"> 2</label>
+                <label><input type="radio" name="course_well_organized" value="3"> 3</label>
+                <label><input type="radio" name="course_well_organized" value="4"> 4</label>
+                <label><input type="radio" name="course_well_organized" value="5"> 5 (Strongly Agree)</label>
+            </div>
+        </div>
+
+        <!-- Repeat similar blocks for questions 2 to 14 -->
+
+        <!-- Question 2 -->
+        <div class="mb-4">
+            <label class="block mb-2">2. There were ample opportunities to speak and practice the target language.</label>
+            <div class="flex justify-between">
+                <label><input type="radio" name="ample_opportunities" value="1" required> 1 (Strongly Disagree)</label>
+                <label><input type="radio" name="ample_opportunities" value="2"> 2</label>
+                <label><input type="radio" name="ample_opportunities" value="3"> 3</label>
+                <label><input type="radio" name="ample_opportunities" value="4"> 4</label>
+                <label><input type="radio" name="ample_opportunities" value="5"> 5 (Strongly Agree)</label>
+            </div>
+        </div>
+
+        <!-- Continue with questions 3 to 14... -->
+
+        <!-- Comments Section -->
+        <p class="mb-4">Do you have any comments you would like to share about items you agree or strongly agree with?</p>
+        <textarea name="comments_agree" class="w-full p-2 border rounded mt-2"></textarea>
+
+        <p class="mb-4">For any items you do not agree or strongly agree with, what improvements would you suggest?</p>
+        <textarea name="comments_disagree" class="w-full p-2 border rounded mt-2"></textarea>
+
+        <p class="mb-4">Please share your thoughts and questions in response to the following questions.</p>
+
+        <!-- Open-ended Question 1 -->
+        <h3 class="text-lg font-semibold mb-2">1. Comment on your language course. What were some highlights of your courses this fall? What were the challenges?</h3>
+        <textarea name="language_course_comment" class="w-full p-2 border rounded mt-2"></textarea>
+
+        <!-- Open-ended Question 2 -->
+        <h3 class="text-lg font-semibold mb-2">2. Comment on your language instructor. Is there anything your instructor did that was particularly helpful or effective? What could your instructor have done to improve the class?</h3>
+        <textarea name="language_instructor_comment" class="w-full p-2 border rounded mt-2"></textarea>
+
+        <!-- Open-ended Question 3 -->
+        <h3 class="text-lg font-semibold mb-2">3. Describe any challenges with the fall courses.</h3>
+        <textarea name="fall_courses_challenges" class="w-full p-2 border rounded mt-2"></textarea>
+
+        <!-- Open-ended Question 4 -->
+        <h3 class="text-lg font-semibold mb-2">4. Describe highlights and strong points from the fall courses.</h3>
+        <textarea name="fall_courses_highlights" class="w-full p-2 border rounded mt-2"></textarea>
+
+        <!-- Open-ended Question 5 -->
+        <h3 class="text-lg font-semibold mb-2">5. What went well in the classroom-instructional component of your program? Is there anything your instructor did that was particularly helpful or effective?</h3>
+        <textarea name="classroom_instruction_comment" class="w-full p-2 border rounded mt-2"></textarea>
+
+        <!-- Open-ended Question 6 -->
+        <h3 class="text-lg font-semibold mb-2">6. Would you recommend the courses to another student? Why or why not?</h3>
+        <textarea name="course_recommendation" class="w-full p-2 border rounded mt-2"></textarea>
+
+        <!-- Open-ended Question 7 -->
+        <h3 class="text-lg font-semibold mb-2">7. Please share any other questions or concerns you have.</h3>
+        <textarea name="other_questions_concerns" class="w-full p-2 border rounded mt-2"></textarea>
+
+        <!-- Student Self-Evaluation Section -->
+        <h2 class="text-xl font-semibold mt-6 mb-4">D. Student Self-Evaluation</h2>
+
+        <p class="mb-4">Please rank the following items from 1 (strongly disagree) to 5 (strongly agree):</p>
+
+        <!-- Self-Evaluation Question 1 -->
+        <div class="mb-4">
+            <label class="block mb-2">1. My effort in and outside of class was appropriate for an overseas intensive course.</label>
+            <div class="flex justify-between">
+                <label><input type="radio" name="self_effort" value="1" required> 1 (Strongly Disagree)</label>
+                <label><input type="radio" name="self_effort" value="2"> 2</label>
+                <label><input type="radio" name="self_effort" value="3"> 3</label>
+                <label><input type="radio" name="self_effort" value="4"> 4</label>
+                <label><input type="radio" name="self_effort" value="5"> 5 (Strongly Agree)</label>
+            </div>
+        </div>
+
+        <!-- Self-Evaluation Question 2 -->
+        <div class="mb-4">
+            <label class="block mb-2">2. I took responsibility for my own progress in the language by engaging in class, completing assignments on time, and contacting my instructors when necessary.</label>
+            <div class="flex justify-between">
+                <label><input type="radio" name="self_responsibility" value="1" required> 1 (Strongly Disagree)</label>
+                <label><input type="radio" name="self_responsibility" value="2"> 2</label>
+                <label><input type="radio" name="self_responsibility" value="3"> 3</label>
+                <label><input type="radio" name="self_responsibility" value="4"> 4</label>
+                <label><input type="radio" name="self_responsibility" value="5"> 5 (Strongly Agree)</label>
+            </div>
+        </div>
+
+        <!-- Self-Evaluation Question 3 -->
+        <div class="mb-4">
+            <label class="block mb-2">3. I contributed both in and out of class to a productive and respectful community of learners.</label>
+            <div class="flex justify-between">
+                <label><input type="radio" name="self_contribution" value="1" required> 1 (Strongly Disagree)</label>
+                <label><input type="radio" name="self_contribution" value="2"> 2</label>
+                <label><input type="radio" name="self_contribution" value="3"> 3</label>
+                <label><input type="radio" name="self_contribution" value="4"> 4</label>
+                <label><input type="radio" name="self_contribution" value="5"> 5 (Strongly Agree)</label>
+            </div>
+        </div>
+
+        <!-- Self-Evaluation Comments -->
+        <p class="mb-4">Do you have any comments you would like to share about items you agree or strongly agree with?</p>
+        <textarea name="self_evaluation_comments_agree" class="w-full p-2 border rounded mt-2"></textarea>
+
+        <p class="mb-4">For any items you do not agree or strongly agree with, what support and resources would you find helpful for your own growth and development?</p>
+        <textarea name="self_evaluation_comments_disagree" class="w-full p-2 border rounded mt-2"></textarea>
+
+        <p class="mb-4">Please share any other questions or concerns you have at this time.</p>
+        <textarea name="self_evaluation_other_comments" class="w-full p-2 border rounded mt-2"></textarea>
+
+        <!-- Final Submit Button -->
+        <div class="mt-8">
+            <button type="submit" class="bg-blue-500 text-white p-3 rounded">
+                Submit Evaluation
+            </button>
+        </div>
+
+    </form>
+</body>
+</html>
